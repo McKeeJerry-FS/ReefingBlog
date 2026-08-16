@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/ReefBlog.Application/ReefBlog.Application.csproj" />
+    <Project Path="src/ReefBlog.Domain/ReefBlog.Domain.csproj" />
+    <Project Path="src/ReefBlog.Infrastructure/ReefBlog.Infrastructure.csproj" />
+    <Project Path="src/ReefBlog.Web/ReefBlog.Web.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/ReefBlog.UnitTests/ReefBlog.UnitTests.csproj" />
+  </Folder>
+</Solution>
