@@ -22,4 +22,7 @@ public class BlogAuthor
     [Required]
     [MaxLength(100)]
     public string Email { get; set; } = null!;
+
+    public ICollection<BlogPost> BlogPosts { get; set; } = new List<BlogPost>();
+    
 }
